@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.Calculator.API", "CalculatorAPI\Orion.Calculator.API.csproj", "{B367D244-01EE-4CE5-B994-14039A50B8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.Calculator.BusinessLogic", "BusinessLogic\Orion.Calculator.BusinessLogic.csproj", "{A9E29857-C7E2-43ED-A538-4C7005D179EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.Calculator.UnitTests", "Orion.Calculator.UnitTests\Orion.Calculator.UnitTests.csproj", "{4FB2C183-E016-4CE1-98AC-44D5E97C21E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orion.Calculator.Models", "Orion.Calculator.Models\Orion.Calculator.Models.csproj", "{D7D612B8-2CAD-4CB4-9CFF-5B3822CF3458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B367D244-01EE-4CE5-B994-14039A50B8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B367D244-01EE-4CE5-B994-14039A50B8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B367D244-01EE-4CE5-B994-14039A50B8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B367D244-01EE-4CE5-B994-14039A50B8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E29857-C7E2-43ED-A538-4C7005D179EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E29857-C7E2-43ED-A538-4C7005D179EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E29857-C7E2-43ED-A538-4C7005D179EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E29857-C7E2-43ED-A538-4C7005D179EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB2C183-E016-4CE1-98AC-44D5E97C21E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB2C183-E016-4CE1-98AC-44D5E97C21E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB2C183-E016-4CE1-98AC-44D5E97C21E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB2C183-E016-4CE1-98AC-44D5E97C21E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D612B8-2CAD-4CB4-9CFF-5B3822CF3458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D612B8-2CAD-4CB4-9CFF-5B3822CF3458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D612B8-2CAD-4CB4-9CFF-5B3822CF3458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D612B8-2CAD-4CB4-9CFF-5B3822CF3458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+	EndGlobalSection
+EndGlobal
